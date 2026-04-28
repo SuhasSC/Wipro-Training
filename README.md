@@ -1,8 +1,8 @@
-### \ 🚀 Wipro Training Repository
+# \ 🚀 Wipro Training Repository
 
 # 
 
-# This repository contains all my hands-on work and practice completed during Wipro training.
+## This repository contains all my hands-on work and practice completed during Wipro training.
 
 # 
 
@@ -14,29 +14,13 @@
 
 # 
 
-# 📁 Assignments – Git and basic programming assignments  
+### 📁 Assignments – Git and basic programming assignments  
 
-# 📁 Practice – Java programs and problem-solving  
+### 📁 Practice – Java programs and problem-solving  
 
-# 📁 dbdemo – Database queries and MySQL practice  
+### 📁 dbdemo – Database queries and MySQL practice  
 
-# 📁 Program-Overview – Notes and conceptual understanding  
-
-# 
-
-# 
-
-# 
-
-# 🛠️ Technologies Used
-
-# 
-
-# Git \& GitHub  
-
-# Java  
-
-# MySQL  
+### 📁 Program-Overview – Notes and conceptual understanding  
 
 # 
 
@@ -44,17 +28,33 @@
 
 # 
 
-# 🎯 Key Learnings
+## 🛠️ Technologies Used
 
 # 
 
-# Version control using Git  
+### Git \& GitHub  
 
-# Writing and managing SQL queries  
+### Java  
 
-# Java programming fundamentals  
+### MySQL  
 
-# Organizing projects using GitHub  
+# 
+
+# 
+
+# 
+
+## 🎯 Key Learnings
+
+# 
+
+### Version control using Git  
+
+### Writing and managing SQL queries  
+
+### Java programming fundamentals  
+
+### Organizing projects using GitHub  
 
 # 
 
