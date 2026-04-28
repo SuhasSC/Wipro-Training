@@ -1,16 +1,70 @@
-# Wipro Training Repository
+# \# 🚀 Wipro Training Repository
 
-This repository contains my training work including:
+# 
 
-- Git assignments
-- Database practice (dbdemo)
-- Java practice programs
-- Program overview notes
+# This repository contains all my hands-on work and practice completed during Wipro training.
 
-## Tech Used
-- Git & GitHub
-- MySQL
-- Java
+# 
 
-## Author
-Suhas S Chauhan
+# \---
+
+# 
+
+# \## 📂 Contents
+
+# 
+
+# \- 📁 Assignments – Git and basic programming assignments  
+
+# \- 📁 Practice – Java programs and problem-solving  
+
+# \- 📁 dbdemo – Database queries and MySQL practice  
+
+# \- 📁 Program-Overview – Notes and conceptual understanding  
+
+# 
+
+# \---
+
+# 
+
+# \## 🛠️ Technologies Used
+
+# 
+
+# \- Git \& GitHub  
+
+# \- Java  
+
+# \- MySQL  
+
+# 
+
+# \---
+
+# 
+
+# \## 🎯 Key Learnings
+
+# 
+
+# \- Version control using Git  
+
+# \- Writing and managing SQL queries  
+
+# \- Java programming fundamentals  
+
+# \- Organizing projects using GitHub  
+
+# 
+
+# \---
+
+# 
+
+# \## 👨‍💻 Author
+
+# 
+
+# Suhas S Chauhan
+
