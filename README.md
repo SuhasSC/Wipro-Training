@@ -28,7 +28,7 @@
 
 # 
 
-# \ ## 🛠️ Technologies Used
+# \ 🛠️ Technologies Used
 
 # 
 
@@ -44,7 +44,7 @@
 
 # 
 
-# \ ## 🎯 Key Learnings
+# \ 🎯 Key Learnings
 
 # 
 
@@ -62,7 +62,7 @@
 
 # 
 
-# \ ## 👨‍💻 Author
+# \ 👨‍💻 Author
 
 # 
 
