@@ -6,7 +6,7 @@
 
 # 
 
-# \---
+# \
 
 # 
 
@@ -14,17 +14,17 @@
 
 # 
 
-# \- 📁 Assignments – Git and basic programming assignments  
+# \ 📁 Assignments – Git and basic programming assignments  
 
-# \- 📁 Practice – Java programs and problem-solving  
+# \ 📁 Practice – Java programs and problem-solving  
 
-# \- 📁 dbdemo – Database queries and MySQL practice  
+# \ 📁 dbdemo – Database queries and MySQL practice  
 
-# \- 📁 Program-Overview – Notes and conceptual understanding  
+# \ 📁 Program-Overview – Notes and conceptual understanding  
 
 # 
 
-# \---
+# \
 
 # 
 
@@ -32,15 +32,15 @@
 
 # 
 
-# \- Git \& GitHub  
+# \ Git \& GitHub  
 
-# \- Java  
+# \ Java  
 
-# \- MySQL  
+# \ MySQL  
 
 # 
 
-# \---
+# \
 
 # 
 
@@ -48,17 +48,17 @@
 
 # 
 
-# \- Version control using Git  
+# \ Version control using Git  
 
-# \- Writing and managing SQL queries  
+# \ Writing and managing SQL queries  
 
-# \- Java programming fundamentals  
+# \ Java programming fundamentals  
 
-# \- Organizing projects using GitHub  
+# \ Organizing projects using GitHub  
 
 # 
 
-# \---
+# \
 
 # 
 
