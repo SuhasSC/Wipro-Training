@@ -1,4 +1,4 @@
-# \ # 🚀 Wipro Training Repository
+# \ 🚀 Wipro Training Repository
 
 # 
 
