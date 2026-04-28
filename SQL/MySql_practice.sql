@@ -53,3 +53,76 @@ SELECT
 FROM Orders o
 JOIN Customers c ON o.customer_id = c.customer_id
 JOIN Restaurants r ON o.restaurant_id = r.restaurant_id;
+
+
+SELECT * FROM Customers;
+
+SELECT * FROM Customers
+WHERE city = 'Finance';   -- replace with actual city like 'Mysore'
+
+SELECT * FROM Orders
+WHERE order_amount > 60000;
+
+SELECT * FROM Orders
+WHERE order_amount > 60000;
+
+SELECT * FROM Orders
+WHERE order_date = '2025-01-11';
+
+SELECT * FROM Orders
+ORDER BY order_amount DESC;
+
+SELECT * FROM Orders
+ORDER BY order_amount DESC
+LIMIT 2;
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE Customers
+SET city = 'Pune'
+WHERE name = 'Ravi';
+
+UPDATE Restaurants
+SET cuisine_type = 'Fast Food'
+WHERE name = 'Pizza World';
+
+UPDATE Orders
+SET order_amount = 550
+WHERE order_id = 1001;
+
+SELECT * FROM Customers WHERE customer_id = 3;
+
+DELETE FROM Customers
+WHERE customer_id = 3;
+
+DELETE FROM Orders
+WHERE order_id = 1002;
+
+DELETE FROM Restaurants
+WHERE city = 'Bangalore';
+
+SET SQL_SAFE_UPDATES = 0;
+
+USE QuickBite;
+
+SHOW TABLES;
+
+SELECT * FROM Customers;
+
+SELECT * FROM Restaurants;
+
+SELECT * FROM Orders;
+
+SELECT 
+    c.customer_id,
+    c.name AS customer_name,
+    r.name AS restaurant_name,
+    o.order_amount,
+    o.order_date
+FROM Orders o
+JOIN Customers c ON o.customer_id = c.customer_id
+JOIN Restaurants r ON o.restaurant_id = r.restaurant_id;
+
+DESCRIBE Customers;
+DESCRIBE Restaurants;
+DESCRIBE Orders;
