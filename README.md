@@ -1,4 +1,4 @@
-# \# 🚀 Wipro Training Repository
+# \ # 🚀 Wipro Training Repository
 
 # 
 
@@ -10,7 +10,7 @@
 
 # 
 
-# \## 📂 Contents
+## 📂 Contents
 
 # 
 
@@ -28,7 +28,7 @@
 
 # 
 
-# \## 🛠️ Technologies Used
+# \ ## 🛠️ Technologies Used
 
 # 
 
@@ -44,7 +44,7 @@
 
 # 
 
-# \## 🎯 Key Learnings
+# \ ## 🎯 Key Learnings
 
 # 
 
@@ -62,7 +62,7 @@
 
 # 
 
-# \## 👨‍💻 Author
+# \ ## 👨‍💻 Author
 
 # 
 
