@@ -1,28 +1,23 @@
+# Java
+*.class
+*.war
+target/
+bin/
+
+# Maven / Eclipse
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# Node
 node_modules/
-venv/
-.env
-__pycache__/
+
+# Logs
 *.log
-*.zip
-*.rar
-*.7z
-*.mp4
-*.csv
-*.h5
-*.ptnode_modules/
-venv/
-__pycache__/
-*.log
-*.csv
-*.zip
-*.h5
-*.pt
-*.pth
-dist/
-build/
-.env
-*.pth
-dist/
-build/
-*.zip
-*.exe
+
+# OS Files
+.DS_Store
+Thumbs.db
