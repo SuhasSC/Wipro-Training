@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>employee dashboard</title>
+
+  <!-- bootstrap for quick clean ui -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-5">
+
+  <h2 class="text-center mb-4">Employee Management Dashboard</h2>
+
+  <!-- form section (add/update) -->
+  <div class="card p-3 mb-4">
+    <h5 id="formTitle">add employee</h5>
+
+    <input type="hidden" id="empId">
+
+    <input type="text" id="name" class="form-control mb-2" placeholder="enter name">
+    <input type="email" id="email" class="form-control mb-2" placeholder="enter email">
+
+    <button class="btn btn-primary" onclick="saveEmployee()">submit</button>
+  </div>
+
+  <!-- table section -->
+  <table class="table table-bordered text-center">
+    <thead class="table-dark">
+      <tr>
+        <th>name</th>
+        <th>email</th>
+        <th>company</th>
+        <th>actions</th>
+      </tr>
+    </thead>
+
+    <tbody id="employeeTable">
+      <!-- data will come here dynamically -->
+    </tbody>
+  </table>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

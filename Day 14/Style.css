@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox usage */
+.container {
+    min-height: 80vh;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 22px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}
