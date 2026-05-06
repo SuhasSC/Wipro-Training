@@ -1,70 +1,63 @@
-# \ 🚀 Wipro Training Repository
+# Wipro Training Workspace
 
-# 
+This repository contains my training projects, practice exercises, Java web applications, frontend mini-projects, SQL work, and learning resources completed during my Wipro training journey.
 
-## This repository contains all my hands-on work and practice completed during Wipro training.
+## Repository Structure
 
-# 
+```text
+projects/
+│
+├── java-web/
+├── frontend/
+├── java-learning/
+└── ml-ai/
 
-# \
+practice/
+│
+├── assignments/
+├── coding-challenges/
+├── frontend/
+├── javascript/
+└── sql/
 
-# 
+docs/
+│
+├── notes/
+├── pdfs/
+├── meeting-summaries/
+└── program-overview/
 
-## 📂 Contents
+scripts/
+archive/
+assets/
+```
 
-# 
+---
 
-### 📁 Assignments – Git and basic programming assignments  
+## Technologies Used
 
-### 📁 Practice – Java programs and problem-solving  
+- Java
+- Servlets & JSP
+- HTML
+- CSS
+- JavaScript
+- SQL
+- Maven
+- Tomcat
 
-### 📁 dbdemo – Database queries and MySQL practice  
+---
 
-### 📁 Program-Overview – Notes and conceptual understanding  
+## Purpose
 
-# 
+This repository is maintained to:
+- organize training work professionally
+- track learning progress
+- manage mini-projects
+- maintain practice exercises
+- prepare portfolio-ready projects
 
-# 
+---
 
-# 
+## Author
 
-## 🛠️ Technologies Used
-
-# 
-
-### Git \& GitHub  
-
-### Java  
-
-### MySQL  
-
-# 
-
-# 
-
-# 
-
-## 🎯 Key Learnings
-
-# 
-
-### Version control using Git  
-
-### Writing and managing SQL queries  
-
-### Java programming fundamentals  
-
-### Organizing projects using GitHub  
-
-# 
-
-#
-
-# 
-
-# 👨‍💻 Author
-
-# 
-
-# Suhas S Chauhan
-
+Suhas S Chauhan
