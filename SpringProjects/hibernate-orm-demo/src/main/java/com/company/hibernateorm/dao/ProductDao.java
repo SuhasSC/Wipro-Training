@@ -8,41 +8,49 @@ import java.util.List;
 
 public class ProductDao {
 
-    public List<Product> getAllProducts() {
+    /* Native SQL Based Query */
+
+    // Scalar Query
+
+    public List<Object[]> findAll() {
 
         try (Session session =
                      HibernateUtil.getSessionFactory().openSession()) {
 
-            String hql = "from Product";
+            String sql = "select * from products";
 
-            return session.createQuery(hql, Product.class).list();
+            return session.createNativeQuery(sql).list();
         }
     }
 
-    public List<Product> getByPrice(double price) {
+    // Entity Based Query
+
+    public List<Product> getAll() {
 
         try (Session session =
                      HibernateUtil.getSessionFactory().openSession()) {
 
-            String hql =
-                    "from Product p where p.price = :price";
+            String sql = "select * from products";
 
-            return session.createQuery(hql, Product.class)
-                    .setParameter("price", price)
+            return session
+                    .createNativeQuery(sql, Product.class)
                     .list();
         }
     }
 
-    public List<Product> searchByKeyword(String keyword) {
+    // Parameterized Query
+
+    public List<Product> getById(int id) {
 
         try (Session session =
                      HibernateUtil.getSessionFactory().openSession()) {
 
-            return session.createQuery(
-                            "from Product p where p.name like :key",
-                            Product.class
-                    )
-                    .setParameter("key", "%" + keyword + "%")
+            String sql =
+                    "select * from products where id = :id";
+
+            return session
+                    .createNativeQuery(sql, Product.class)
+                    .setParameter("id", id)
                     .list();
         }
     }

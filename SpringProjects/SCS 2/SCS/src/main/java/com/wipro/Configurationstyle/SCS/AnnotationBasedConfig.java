@@ -1,0 +1,12 @@
+package com.wipro.Configurationstyle.SCS;
+
+
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "com.wipro.Configurationstyle.SCS")
+public class AnnotationBasedConfig {
+
+}

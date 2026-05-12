@@ -14,7 +14,8 @@ public class App {
         try (Session session =
                      HibernateUtil.getSessionFactory().openSession()) {
 
-            Transaction tx = session.beginTransaction();
+            Transaction tx =
+                    session.beginTransaction();
 
             Category category1 =
                     new Category("Electronics");
@@ -22,12 +23,8 @@ public class App {
             Category category2 =
                     new Category("Stationary");
 
-            Category category3 =
-                    new Category("PoojaItems");
-
             session.persist(category1);
             session.persist(category2);
-            session.persist(category3);
 
             session.persist(
                     new Product("Laptop", 50000, category1)
@@ -49,24 +46,40 @@ public class App {
                     new Product("Pen", 20, category2)
             );
 
+            tx.commit();
+
             ProductDao dao = new ProductDao();
 
-            System.out.println("\n===== ALL PRODUCTS =====");
+            System.out.println(
+                    "\n===== Native SQL Queries ====="
+            );
 
-            dao.getAllProducts()
+            System.out.println(
+                    "\n1. Scalar Query"
+            );
+
+            dao.findAll()
+                    .forEach(
+                            p -> System.out.println(
+                                    p[0] + " " +
+                                    p[1] + " " +
+                                    p[2]
+                            )
+                    );
+
+            System.out.println(
+                    "\n2. Entity Query"
+            );
+
+            dao.getAll()
                     .forEach(System.out::println);
 
-            System.out.println("\n===== PRICE FILTER =====");
+            System.out.println(
+                    "\n3. Parameterized Query"
+            );
 
-            dao.getByPrice(50000)
+            dao.getById(1)
                     .forEach(System.out::println);
-
-            System.out.println("\n===== SEARCH FILTER =====");
-
-            dao.searchByKeyword("Lap")
-                    .forEach(System.out::println);
-
-            tx.commit();
 
         } catch (Exception e) {
 
